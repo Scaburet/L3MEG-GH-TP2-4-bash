@@ -1,5 +1,7 @@
-name: plasmabio-template-bash
+name: L3MEG-GH-TP2-4-bash
 channels:
+  - conda-forge
+  - bioconda
   - conda-forge
 dependencies:
   - jupyterlab=2
@@ -7,5 +9,8 @@ dependencies:
   - python>=3.7
   - pip
   - nodejs
+  - r-irkernel
+  - r-base>=3.6
+  - r-tidyverse
   - pip:
     - bash_kernel
